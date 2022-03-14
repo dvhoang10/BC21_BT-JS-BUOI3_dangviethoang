@@ -1,0 +1,18 @@
+#bt1-alert,
+#bt2-alert,
+#bt3-alert,
+#bt4-alert,
+#bt5-alert--success,
+#bt5-alert--error,
+#bt6-alert--success,
+#bt6-alert--error,
+#bt7-alert--success,
+#bt7-alert--error,
+#bt8-alert {
+  display: none;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

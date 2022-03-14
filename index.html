@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bai tap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">Bài tập</h1>
+
+      <!-- bai 1 -->
+      <div class="bt1">
+        <h3>Bài 1</h3>
+
+        <div class="form-group">
+          <label for="">Nhập a</label>
+          <input
+            type="text"
+            name="array1[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập b</label>
+          <input
+            type="text"
+            name="array1[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập c</label>
+          <input
+            type="text"
+            name="array1[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt1_show()">Sắp xếp</button>
+
+        <div id="bt1-alert" class="alert alert-success mt-3" role="alert"></div>
+      </div>
+
+      <!-- bai 2 -->
+      <div class="bt2 mt-5">
+        <h3>Bài 2</h3>
+
+        <div class="form-group">
+          <label for="">Nhập vai vế</label>
+          <input
+            type="text"
+            name=""
+            id="bt2-txt-name"
+            class="form-control"
+            placeholder="Example: B, M, A, E"
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt2_show()">Chào</button>
+
+        <div id="bt2-alert" class="alert alert-success mt-3" role="alert"></div>
+      </div>
+
+      <!-- bài 3 -->
+      <div class="bt3 mt-5">
+        <h3>Bài 3</h3>
+
+        <div class="form-group">
+          <label for="">Nhập a</label>
+          <input
+            type="text"
+            name="array3[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập b</label>
+          <input
+            type="text"
+            name="array3[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập c</label>
+          <input
+            type="text"
+            name="array3[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt3_show()">Kiểm tra</button>
+
+        <div id="bt3-alert" class="alert alert-success mt-3" role="alert"></div>
+      </div>
+
+      <!-- bài 4 -->
+      <div class="bt4 mt-5">
+        <h3>Bài 4</h3>
+
+        <div class="form-group">
+          <label for="">Nhập cạnh a</label>
+          <input
+            type="text"
+            name="array4[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập cạnh b</label>
+          <input
+            type="text"
+            name="array4[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập cạnh c</label>
+          <input
+            type="text"
+            name="array4[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt4_show()">Kiểm tra</button>
+
+        <div id="bt4-alert" class="alert alert-success mt-3" role="alert"></div>
+      </div>
+
+      <h1 class="text-center mt-5">Bài tập nâng cao</h1>
+
+      <!-- bài 1 - nâng cao -->
+      <div class="bt5 mt-5">
+        <h3>Bài 1</h3>
+
+        <div class="form-group">
+          <label for="">Nhập ngày</label>
+          <input
+            type="text"
+            name="array5[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập tháng</label>
+          <input
+            type="text"
+            name="array5[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập năm</label>
+          <input
+            type="text"
+            name="array5[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt5_show()">Kiểm tra</button>
+
+        <div id="bt4-alert" class="alert alert-success mt-3" role="alert"></div>
+
+        <div
+          id="bt5-alert--success"
+          class="alert alert-success mt-3"
+          role="alert"
+        ></div>
+        <div
+          id="bt5-alert--error"
+          class="alert alert-danger mt-3"
+          role="alert"
+        ></div>
+      </div>
+
+      <!-- bài 2 - nâng cao -->
+      <div class="bt6 mt-5">
+        <h3>Bài 2</h3>
+
+        <div class="form-group">
+          <label for="">Nhập tháng</label>
+          <input
+            type="text"
+            name="array6[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập năm</label>
+          <input
+            type="text"
+            name="array6[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt6_show()">Kiểm tra</button>
+
+        <div
+          id="bt6-alert--success"
+          class="alert alert-success mt-3"
+          role="alert"
+        ></div>
+        <div
+          id="bt6-alert--error"
+          class="alert alert-danger mt-3"
+          role="alert"
+        ></div>
+      </div>
+
+      <!-- bài 3 - nâng cao -->
+      <div class="bt7 mt-5">
+        <h3>Bài 3</h3>
+
+        <div class="form-group">
+          <label for="">Nhập số nguyên có 3 chữ số</label>
+          <input
+            type="text"
+            name=""
+            id="bt7-txt-number"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt7_show()">Kiểm tra</button>
+
+        <div
+          id="bt7-alert--success"
+          class="alert alert-success mt-3"
+          role="alert"
+        ></div>
+        <div
+          id="bt7-alert--error"
+          class="alert alert-danger mt-3"
+          role="alert"
+        ></div>
+      </div>
+
+      <!-- bài 4 - nâng cao -->
+      <div class="bt8 mt-5">
+        <h3>Bài 4</h3>
+        <h5>Tọa độ của trường (6,8)</h5>
+
+        <div class="form-group">
+          <label for="">Nhập tên sinh viên 1</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ x</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ y</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập tên sinh viên 2</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ x</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ y</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Nhập tên sinh viên 3</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ x</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <label for="">Tọa độ y</label>
+          <input
+            type="text"
+            name="array8[]"
+            id=""
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <button class="btn btn-success" onclick="bt8_show()">Kiểm tra</button>
+
+        <div id="bt8-alert" class="alert alert-success mt-3" role="alert"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/bt1.js"></script>
+    <script src="./js/bt2.js"></script>
+    <script src="./js/bt3.js"></script>
+    <script src="./js/bt4.js"></script>
+    <script src="./js/bt1_nc.js"></script>
+    <script src="./js/bt2_nc.js"></script>
+    <script src="./js/bt3_nc.js"></script>
+    <script src="./js/bt4_nc.js"></script>
+  </body>
+</html>
